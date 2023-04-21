@@ -21,11 +21,11 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "CI= react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
-  "proxy": "http://localhost:4400",
+  "proxy": "https://ogmp.onrender.com",
   "eslintConfig": {
     "extends": [
       "react-app",
